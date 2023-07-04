@@ -1,0 +1,243 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    border:border-box;
+}
+.border:hover{
+    border:2px solid white;
+    
+}
+.locate{
+    height:60px; 
+}
+li{
+list-style-type: none;
+font-size:18px;
+}
+.big{
+    font-size: 20px;
+    margin-left: 600px;
+}
+.copyright{
+    display: flex;
+}
+.second-nav-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 18px;
+    height:50px;
+}
+.cart{
+    height:60px;
+    width:60px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.second-nav{
+    height:50px;
+    background-color: #232f3e;
+    color:white;  
+}
+.account{
+    height:60px;
+    display:flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+}
+.returns{
+    height:60px;
+    display:flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+}
+.navbar{
+    background-color: black;
+    color:white;
+    height:60px;
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+#logo{
+    width:100px;
+    height:60px;
+}
+
+.location{
+    display:flex;
+  
+   align-items: center;
+}
+
+
+#szInd{
+    font-size:18px;
+    font-weight:700;
+    margin-left:5px;
+}
+.navbox{
+   display:flex;
+    width:48%;
+    height:50px;
+   
+}
+.unique{
+    font-size: 16px;
+    color:#ffffff47;
+}
+.footer-bottom{
+    background-color:#232f3e;
+    color:white;
+    height:500px;
+}
+.copyright{
+   margin-top: 200px;
+   margin-left: 300px;
+}
+.footer-content{
+    display: flex;
+    font-size:20px;
+    justify-content: space-evenly;
+   
+}
+.navbox:hover{
+   border: 3px solid orange;
+}
+#sel{
+   font-size: 18px;
+   border-top-left-radius: 4px;
+   border-bottom-left-radius: 4px;
+   text-align: center;
+}
+.search-icon{
+    background-color: orange;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    width:45px;
+}
+ #inputs{
+   font-size: 18px;
+    width:600px;
+}
+.delivery{
+    font-size:16px;
+    margin-top:10px;
+}
+.hero-section{
+    background-image: url("images/hero_image.jpg");
+    background-size: cover;
+    width:100%;
+    height:400px;
+    display:flex;
+    align-items:flex-end;
+    justify-content: center;
+}
+.hero-tag{
+    margin-bottom: 25px;
+    background-color: white;
+    color:black;
+    height:40px;
+    width:85%;
+    font-size:0.85rem;
+    text-align: center;
+    border-radius: 4px;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+
+}
+.hero-tag a{
+    color:#007185;
+}
+.box{
+    margin-top: 25px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgba(183, 234, 240, 0.971);
+    width:100%;
+    height:1500px;
+    align-items: center;
+    
+}
+.box-style{
+    margin-top: 10px;;
+    background-color: white;
+    width:23%;
+    height:600px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  
+}
+.box-style h2{
+    margin-left: 15px;
+}
+
+.box1{
+    background-image: url('images/box1_image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height:400px;
+}
+.box2{
+    background-image: url('images/box2_image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height:400px;
+}
+.box3{
+    background-image: url('images/box3_image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height:400px;
+}
+.box4{
+    background-image: url('images/box4_image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height:400px;
+}
+.box5{
+    background-image: url('images/box5_image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height:400px;
+}
+.box6{
+    background-image: url('images/box6_image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height:400px;
+}
+.box7{
+    background-image: url('images/box7_image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height:400px;
+}
+.box8{
+    background-image: url('images/box8_image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height:400px;
+}
+.box-style a{
+    font-size:18px;
+    color:#007185;
+    margin-left: 15px;
+}
